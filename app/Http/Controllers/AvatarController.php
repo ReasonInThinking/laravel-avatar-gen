@@ -87,11 +87,11 @@
 <p>
 
 <span>Round up?</span>
-<input type="radio" name="round" value="1" {{ old('round', $round) == '1' ? 'checked' : '' }}>
-<label for="yes">Yes</label>
+<input type="radio" name="round" id="round-yes" value="1" {{ old('round', $round) == '1' ? 'checked' : '' }}>
+<label for="round-yes">Yes</label>
 
-<input type="radio" name="round" value="0" {{ old('round', $round) == '0' ? 'checked' : '' }}>
-<label for="no">No</label>
+<input type="radio" id="round-no" name="round" value="0" {{ old('round', $round) == '0' ? 'checked' : '' }}>
+<label for="round-no">No</label>
 
 </p>
 
@@ -99,12 +99,13 @@
 
 <p>
 
-<span>Bold text?</span>
-<input type="radio" name="bold" value="1" {{ old('bold', $bold) == '1' ? 'checked' : '' }}>
-<label for="yes">Yes</label>
 
-<input type="radio" name="bold" value="0" {{ old('bold', $bold) == '0' ? 'checked' : '' }}>
-<label for="no">No</label>
+<span>Bold text?</span>
+<input type="radio" name="bold" id="bold-yes" value="1" {{ old('bold', $bold) == '1' ? 'checked' : '' }}>
+<label for="bold-yes">Yes</label>
+
+<input type="radio" name="bold" id="bold-no" value="0" {{ old('bold', $bold) == '0' ? 'checked' : '' }}>
+<label for="bold-no">No</label>
 
 </p>
 
