@@ -6,8 +6,8 @@ This is a simple web tool that lets you create custom profile pictures using the
 
 ### 🌟 What you can do:
 - **Personalize:** Create avatars based on any nickname.
-- **Styling:** Choose colors (like the cool **Purple 🔮**), adjust sizes, and pick fonts.
-- **Shape & Text:** Make it **Rounded**, use **Bold** text, or switch to **Uppercase**.
+- **Styling:** Choose colors and size for text and background
+- **Shape:** Make it Image **Rounded**, use **Bold** text.
 - **Formats:** Download or view your result in **PNG** or **SVG** format.
 - **Dark Mode:** A sleek, dark interface that looks great on any screen.
 
